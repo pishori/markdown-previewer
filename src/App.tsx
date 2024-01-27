@@ -2,7 +2,6 @@ import { useState } from 'react'
 import './App.css'
 import ReactMarkdown from "react-markdown";
 
-
 const defaultMarkdown = `
 # Welcome to my React Markdown Previewer!
 
@@ -52,7 +51,7 @@ And here. | Okay. | I think we get it.
 
 function App() {
   const [markdownText, setMarkdownText] = useState<string>(defaultMarkdown)
-
+  
   return (
     <>
     <div>
